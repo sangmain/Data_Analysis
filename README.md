@@ -44,7 +44,7 @@ x.describe()
 ![result2](./result/result2.PNG)
 
 
-**violin plot을 이용해서 각 컬럼의 값에 따라 y의 분포율 **
+**violin plot을 이용해서 각 컬럼의 값에 따라 y의 분포율 확인**
 ```python
 scaler = MinMaxScaler()
 x_scaled = scaler.fit_transform(x)
